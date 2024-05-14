@@ -157,4 +157,8 @@
                 die("Error in deleting your account. " . $this->conn->error);
             }
         }
+
+        public function testOnly(){
+            # do something here..
+        }
     }

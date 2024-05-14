@@ -6,6 +6,7 @@
         private $password = ""; //root
         private $db_name = "the_company";
         protected $conn;
+        private $test;
 
         # Define constructor
         public function __construct(){

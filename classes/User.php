@@ -159,6 +159,6 @@
         }
 
         public function testOnly(){
-            # do something here..
+            die("This is a test");
         }
     }
